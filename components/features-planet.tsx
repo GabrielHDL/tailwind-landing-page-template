@@ -14,13 +14,13 @@ export default function FeaturesPlanet() {
           {/* Section header */}
           <div className="mx-auto max-w-3xl pb-16 text-center md:pb-20">
             <h2 className="text-3xl font-bold text-gray-200 md:text-4xl">
-              Simple helps your teams work more efficiently together
+              Soluciones Web y Branding Corporativo
             </h2>
           </div>
           {/* Planet */}
           <div className="pb-16 md:pb-20" data-aos="zoom-y-out">
             <div className="text-center">
-              <div className="relative inline-flex rounded-full before:absolute before:inset-0 before:-z-10 before:scale-[.85] before:animate-[pulse_4s_cubic-bezier(.4,0,.6,1)_infinite] before:bg-gradient-to-b before:from-blue-900 before:to-sky-700/50 before:blur-3xl after:absolute after:inset-0 after:rounded-[inherit] after:[background:radial-gradient(closest-side,theme(colors.blue.500),transparent)]">
+              <div className="relative inline-flex rounded-full before:absolute before:inset-0 before:-z-10 before:scale-[.85] before:animate-[pulse_4s_cubic-bezier(.4,0,.6,1)_infinite] before:bg-gradient-to-b before:from-carionixLimeLight before:to-carionixLimeLight before:blur-3xl after:absolute after:inset-0 after:rounded-[inherit] after:[background:radial-gradient(closest-side,theme(colors.carionixLimeDark),transparent)]">
                 <Image
                   className="rounded-full bg-gray-900"
                   src={PlanetImg}
@@ -75,7 +75,7 @@ export default function FeaturesPlanet() {
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
-                  className="fill-blue-500"
+                  className="fill-carionixLimeDark"
                   xmlns="http://www.w3.org/2000/svg"
                   width={16}
                   height={16}
@@ -85,15 +85,13 @@ export default function FeaturesPlanet() {
                 <span>Instant Analytics</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+                Recopile información esencial sobre cómo los visitantes usan su sitio con métricas detalladas de visitas a la página, como páginas, sitios de referencia y más.
               </p>
             </article>
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
-                  className="fill-blue-500"
+                  className="fill-carionixLimeDark"
                   xmlns="http://www.w3.org/2000/svg"
                   width={16}
                   height={16}
@@ -103,15 +101,13 @@ export default function FeaturesPlanet() {
                 <span>Metadata</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+              Optimiza tu SEO y atrae más clientes. Mejora tus clics y convierte visitas en ventas con metadata efectiva.
               </p>
             </article>
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
-                  className="fill-blue-500"
+                  className="fill-carionixLimeDark"
                   xmlns="http://www.w3.org/2000/svg"
                   width={16}
                   height={16}
@@ -125,15 +121,13 @@ export default function FeaturesPlanet() {
                 <span>SEO &amp; Performance</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+              Optimiza tu rendimiento con un VPS potente y código limpio y profesional para un desarrollo impecable.
               </p>
             </article>
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
-                  className="fill-blue-500"
+                  className="fill-carionixLimeDark"
                   xmlns="http://www.w3.org/2000/svg"
                   width={16}
                   height={16}
@@ -143,15 +137,13 @@ export default function FeaturesPlanet() {
                 <span>Custom Code</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+              Un código personalizado, limpio y profesional asegura soluciones a medida, mayor eficiencia y fácil mantenimiento a largo plazo.
               </p>
             </article>
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
-                  className="fill-blue-500"
+                  className="fill-carionixLimeDark"
                   xmlns="http://www.w3.org/2000/svg"
                   width={16}
                   height={16}
@@ -161,15 +153,13 @@ export default function FeaturesPlanet() {
                 <span>Localization</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+              Maximiza la velocidad y confiabilidad con servidores estratégicamente ubicados y CDN para una entrega de contenido rápida y eficiente en todo el mundo.
               </p>
             </article>
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
-                  className="fill-blue-500"
+                  className="fill-carionixLimeDark"
                   xmlns="http://www.w3.org/2000/svg"
                   width={16}
                   height={16}
@@ -179,9 +169,7 @@ export default function FeaturesPlanet() {
                 <span>Canonical URL</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+              Una URL canónica asegura que los motores de búsqueda identifiquen la versión principal de tu página, mejorando el SEO y evitando contenido duplicado.
               </p>
             </article>
           </div>

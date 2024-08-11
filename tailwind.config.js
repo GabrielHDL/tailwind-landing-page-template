@@ -11,6 +11,18 @@ module.exports = {
         inter: ["Inter", "sans-serif"],
         mono: ["Roboto Mono", "monospace"],
       },
+      colors: {
+        carionixLimeDark: '#E7FD31',
+        carionixLimeLight: '#D3E62D',
+        carionixTitleLight: '#A9B814',
+        carionixDark: '#023f40',
+        carionixBgDark: '#022d2e',
+        amzAmber: '#FEA725',
+        amzGray: '#323B41',
+        amzHover: '#EB8D00',
+        mlBlue: '#337FF2',
+        mlHover: '#2967c8'
+      },
       fontSize: {
         xs: ["0.75rem", { lineHeight: "1.5" }],
         sm: ["0.875rem", { lineHeight: "1.5715" }],

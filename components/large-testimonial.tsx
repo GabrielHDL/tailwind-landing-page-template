@@ -1,5 +1,5 @@
 import Image from "next/image";
-import TestimonialImg from "@/public/images/large-testimonial.jpg";
+import TestimonialImg from "@/public/images/david_perez.jpg";
 
 export default function LargeTestimonial() {
   return (
@@ -29,17 +29,16 @@ export default function LargeTestimonial() {
                 alt="Large testimonial"
               />
             </div>
-            <p className="text-2xl font-bold text-gray-900">
-              “Simple has simplified my life in more ways than one. From
-              managing my sites to{" "}
-              <em className="italic text-gray-500">keeping track of tasks</em>,
-              it's become my go-to tool for everything.”
+            <p className="text-2xl font-bold dark:text-slate-200 text-gray-900">
+              “IQonic me ha ayudado mucho a desarrollar mi{" "}
+              <em className="italic dark:text-carionixLimeDark/70 text-gray-500">identidad corporativa</em>,
+              son profesionales ”
             </p>
             <div className="text-sm font-medium text-gray-500">
-              <span className="text-gray-700">Mary Sullivan</span>{" "}
+              <span className="dark:text-white text-gray-700">David Pérez</span>{" "}
               <span className="text-gray-400">/</span>{" "}
-              <a className="text-blue-500" href="#0">
-                CTO at Microsoft
+              <a className="text-carionixLimeLight dark:text-carionixLimeDark" href="#">
+                CEO en DAPEX
               </a>
             </div>
           </div>

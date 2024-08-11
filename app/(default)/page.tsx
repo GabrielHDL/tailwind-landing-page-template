@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Home - Simple",
-  description: "Page description",
+  title: "Host by IQonic®",
+  description: "Dominio hospedado por IQonic®",
 };
 
 import Hero from "@/components/hero-home";
