@@ -35,7 +35,7 @@ export default function LargeTestimonial() {
               son profesionales ”
             </p>
             <div className="text-sm font-medium text-gray-500">
-              <span className="dark:text-white text-gray-700">David Pérez</span>{" "}
+              <span className="dark:text-white text-gray-700">Marcelo Pérez</span>{" "}
               <span className="text-gray-400">/</span>{" "}
               <a className="text-carionixLimeLight dark:text-carionixLimeDark" href="#">
                 CEO en DAPEX
