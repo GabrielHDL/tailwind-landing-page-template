@@ -3,7 +3,7 @@ import TestimonialImg from "@/public/images/logo_hecsa_color.svg";
 
 export default function LargeTestimonial() {
   return (
-    <section>
+    <section id="services">
       <div className="mx-auto max-w-5xl px-4 sm:px-6">
         <div className="py-12 md:py-20">
           <div className="space-y-3 text-center">
@@ -19,15 +19,15 @@ export default function LargeTestimonial() {
             {/* <p className="text-2xl font-bold text-gray-900">
               Nuestros Servicios
             </p> */}
-            <div className="max-w-4xl mx-auto p-6 bg-gradient-to-br from-gray-50 to-blue-50 rounded-xl shadow-lg">
-              <h2 className="text-2xl font-bold text-blue-800 mb-6 border-b-2 border-blue-200 pb-2">
+            <div className="p-6 bg-gradient-to-br from-gray-50 to-primary/10 rounded-xl shadow-lg">
+              <h2 className="text-2xl font-bold text-primary mb-6 border-b-2 border-blue-200 pb-2">
                 Servicios de Ingeniería Especializada
               </h2>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="space-y-4">
                   <div className="flex items-start bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                    <div className="w-8 mr-3 text-blue-600">
+                    <div className="w-8 mr-3 text-secondary">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -56,7 +56,7 @@ export default function LargeTestimonial() {
                   </div>
 
                   <div className="flex items-start bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                    <div className="w-8 mr-3 text-blue-600">
+                    <div className="w-8 mr-3 text-secondary">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -85,7 +85,7 @@ export default function LargeTestimonial() {
                 </div>
                 <div className="space-y-4">
                   <div className="flex items-start bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                    <div className="w-8 mr-3 text-blue-600">
+                    <div className="w-8 mr-3 text-secondary">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -113,7 +113,7 @@ export default function LargeTestimonial() {
                   </div>
 
                   <div className="flex items-start bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                    <div className="w-8 mr-3 text-blue-600">
+                    <div className="w-8 mr-3 text-secondary">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
